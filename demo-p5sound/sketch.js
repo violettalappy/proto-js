@@ -29,10 +29,6 @@ function setup() {
   MutateButton = createButton("mutate");
 }
 
-function loaded(){  
-  //song.play();
-}
-
 function draw() {
   song.setVolume(SliderVolume.value());
   song.rate(SliderPitch.value());
