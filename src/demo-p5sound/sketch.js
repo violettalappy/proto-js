@@ -1,3 +1,5 @@
+//(c)2023 hoanglongplanner
+//This script responsible for playing sounds with some buttons and sliders
 
 //--Variable--
 
