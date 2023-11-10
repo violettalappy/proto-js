@@ -1,22 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<style>
+form * {
+  display: block;
+  margin: 10px;
+}
+</style>
+<script language="Javascript" >
+function download(filename, text) {
+  var pom = document.createElement('a');
+  pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + 
+
+encodeURIComponent(text));
+  pom.setAttribute('download', filename);
+
+  pom.style.display = 'none';
+  document.body.appendChild(pom);
+
+  pom.click();
+
+  document.body.removeChild(pom);
+}
+</script>
 </head>
 <body>
-    <div>
-        <code>
-            Code will be inserted here
-            <br>
-            Hello world, are you okay at all
-        </code>
 
-        <div>
-            --Auto Generation Code--
-            <button title="Generate Code">Generate Code</button>
-        </div>
-    </div>
+<form onsubmit="download(this['name'].value, this['text'].value)">
+  <input type="text" name="name" value="test.txt">
+  <textarea rows=3 cols=50 name="text">Please type in this box. When you 
+
+click the Download button, the contents of this box will be downloaded to 
+
+your machine at the location you specify. Pretty nifty. </textarea>
+  <input type="submit" value="Download">
+</form>
 </body>
 </html>

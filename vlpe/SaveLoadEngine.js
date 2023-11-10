@@ -75,6 +75,9 @@ const KCharacterStat = {
     Charisma: "",
     Perception: "",
     Ability: "",
+
+    GuardBoost,
+    GuardNegate
 }
 
 const KGameSystem = {
