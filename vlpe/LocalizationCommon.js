@@ -19,6 +19,8 @@ const localization = {
     //Main Menu
     PressAnyKey: ["Press any key", "Nhan nut nao cung duoc"],
     Play: ["Play", "Choi"],
+    NewGame: ["New Game", "Tro choi moi"],
+    Continue: ["Continue", "Tiep tuc"],
 
     //Options
     Options: ["Options", "Cai dat"],
@@ -40,10 +42,10 @@ const localization = {
     Options_Graphics_FieldOfView: ["Field of View", ""],
     Options_Audio: ["Audio", "Am thanh"],
     Options_Audio_Master: ["Audio", "Am thanh"],
-    Options_Audio_BGM: ["Audio", "Am thanh"],
-    Options_Audio_SFX: ["Audio", "Am thanh"],
-    Options_Audio_GUI: ["Audio", "Am thanh"],
-    Options_Audio_Voice: ["Audio", "Am thanh"],
+    Options_Audio_BGM: ["BGM"],
+    Options_Audio_SFX: ["SFX"],
+    Options_Audio_GUI: ["GUI"],
+    Options_Audio_Voice: ["Voice"],
     Options_Controls: ["Controls", "Dieu khien"],
     Options_Controls_Keyboard: ["Keyboard", "Ban phim"],
     Options_Controls_Mouse: ["Mouse", "Con chuot"],
@@ -65,9 +67,15 @@ const localization = {
 
     Gallery: ["Gallery", "Thu vien"],
 
+    Codex: ["Codex"],
+
     DLC: ["DLC", "DLC"],
     DLC_Installed: ["Installed", "DLC"],
     DLC_NotInstalled: ["Not Install Yet", "DLC"],
+
+    History: ["",""],
+    Unlockables: ["",""],
+    Progress: ["",""],
 
     BackToMainMenu: ["Back to Main Menu", "Tro ve man hinh chinh"],
     BackToDesktop: ["Back to Desktop", "Tro ve desktop"],
@@ -109,6 +117,8 @@ const localization = {
     GameData: ["Game Data", "Du lieu tro choi"],
     Save: ["Save"],
     Load: ["Load"],
+    QuickSave: [""],
+    QuickLoad: [""],
     Migrate: ["Migrate"],
     Transfer: ["Transfer"],
 };
