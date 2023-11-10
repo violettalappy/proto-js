@@ -84,12 +84,6 @@ const KGameSystem = {
     IsInitFirstTime,
 }
 
-const KGameSession = {
-    Money: "",
-    Gem: "",
-    Crystal: "",
-}
-
 const KGameEvent = {
     IsCharacterDead: "",
     CanCharacterDead: "",

@@ -41,7 +41,7 @@ const localization = {
     Options_Graphics_Preset: ["Preset", "Cau hinh"],
     Options_Graphics_FieldOfView: ["Field of View", ""],
     Options_Audio: ["Audio", "Am thanh"],
-    Options_Audio_Master: ["Audio", "Am thanh"],
+    Options_Audio_Master: ["Master"],
     Options_Audio_BGM: ["BGM"],
     Options_Audio_SFX: ["SFX"],
     Options_Audio_GUI: ["GUI"],
@@ -63,11 +63,18 @@ const localization = {
     Options_System_FPS: ["FPS", "FPS"],
     Options_Default: ["Default", "Default"],
 
+    Help: ["Help","Huong dan"],
+
     Config: ["Config", "Cau hinh"],
 
     Gallery: ["Gallery", "Thu vien"],
-
+    Gallery_Musics: ["Musics", "Nhac"],
+    Gallery_Illustrations: ["Illustrations", "Anh"],
+    
     Codex: ["Codex"],
+    Codex_Documents: ["Documents"],
+    Codex_History: ["History"],
+    Codex_Characters: ["Characters"],
 
     DLC: ["DLC", "DLC"],
     DLC_Installed: ["Installed", "DLC"],
@@ -106,6 +113,7 @@ const localization = {
 
     Notification_LoadSceneFail: ["Load scene fail !!", "Load scene co loi !!"],
     Notification_LoadLevelFail: ["Load level fail !!", "Load level co loi !!"],
+    Notification_LoadSceneSuccess: ["Load scene success !!", "Load scene okay !!"],
     Notification_UnableToLoadGameData: ["", ""],
     Notification_Info: ["", ""],
     Notification_Warning: ["", ""],
@@ -113,29 +121,35 @@ const localization = {
     Notification_Fatal: ["", ""],
 
     //Data
-    ProfileData: ["Profile Data", "Du lieu nguoi dung"],
-    GameData: ["Game Data", "Du lieu tro choi"],
+    Profile: ["Profile", "Nguoi dung"],
     Save: ["Save"],
     Load: ["Load"],
-    QuickSave: [""],
-    QuickLoad: [""],
+    QuickSave: ["Quick Save"],
+    QuickLoad: ["Quick Load"],
+    Delete: ["Delete", "Xoa"],
     Migrate: ["Migrate"],
     Transfer: ["Transfer"],
 };
 
+//Load csv file
 function getText(arg_localizationID, arg_language){
     let result = "Example Text";
     return result;
 }
 
-function generate(){}
+//Load from default localization array
+function getTextFromDefault(arg_localizationID, arg_language){
+    let result = "Example Text";
+    return result;
+}
 
+//Misc
+/*
+function generate(){}
 function exportCSV(){}
 function exportJSON(){}
 function exportSQL(){}
 
-//Misc
-/*
 JapaneseCurrency: ["Yen"],
 Profile: ["Profile", "Ho so nguoi dung"],
 */
