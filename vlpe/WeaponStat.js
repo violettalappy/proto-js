@@ -1,9 +1,25 @@
 const KWeaponStat = {
-    Attack: "",
-    Defense: "",
-    Attachment: "",
-    Endurance: "",
+    Rank,
+    Level,
     
-    Cost: "",
-    Value: "",
+    Attack,
+    Defense,
+    Attachment,
+    Endurance,
+
+    Accuracy,
+    Damage,
+    Range,
+    FireRate,
+    Mobility,
+    Control,
+
+    Ammo,
+    Magazine,
+
+    Value,
+}
+
+class WeaponStats{
+    constructor(){}
 }
