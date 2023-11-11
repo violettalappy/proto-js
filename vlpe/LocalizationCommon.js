@@ -119,6 +119,8 @@ const localization = {
     Notification_Warning: ["", ""],
     Notification_Caution: ["", ""],
     Notification_Fatal: ["", ""],
+    Notification_SaveSuccess: ["Save successful", "Luu thanh cong"],
+    Notification_SaveFail: ["Save fail", "Luu loi !!"],
 
     //Data
     Profile: ["Profile", "Nguoi dung"],
