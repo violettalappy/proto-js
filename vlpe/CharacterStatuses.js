@@ -111,7 +111,35 @@ const _boolean = [
     //Debuff
 ]
 
-function generateText() {
+function exportJS() {
+    //something about it
+    let result = "class CharacterStatuses{";
+    //add more text here
+
+    //set value function
+    //get value function
+
+    //set status function
+    //get status function
+
+    //onVariableNameChanged
+}
+
+function exportCPP() {
+    //something about it
+    let result = "class CharacterStatuses{";
+    //add more text here
+
+    //set value function
+    //get value function
+
+    //set status function
+    //get status function
+
+    //onVariableNameChanged
+}
+
+function exportCSharp() {
     //something about it
     let result = "class CharacterStatuses{";
     //add more text here
