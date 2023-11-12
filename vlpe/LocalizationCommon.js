@@ -122,6 +122,8 @@ const localization = {
     Notification_SaveSuccess: ["Save successful", "Luu thanh cong"],
     Notification_SaveFail: ["Save fail", "Luu loi !!"],
 
+    Subtext_SelectYourLanguage: ["Please select your language", "Vui long chon ngon ngu"],
+
     //Data
     Profile: ["Profile", "Nguoi dung"],
     Save: ["Save"],

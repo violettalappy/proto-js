@@ -1,4 +1,6 @@
-class ProgramValue{
+//Percentage bonus increment
+//Stat increment
+class ProgramValue {
     constructor(
         value = 0,
         valueDefault = 0,
@@ -54,3 +56,5 @@ class ProgramValue{
         this.systemMax = arg_value;
     }
 };
+
+const sz_increment = 0;
