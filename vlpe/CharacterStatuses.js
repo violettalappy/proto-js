@@ -2,6 +2,9 @@
 // Usage in gameplay more
 
 //https://bulbapedia.bulbagarden.net/wiki/Status_condition
+//https://mgq.miraheze.org/wiki/Status_Ailments/Paradox
+//https://www.reddit.com/r/OMORI/comments/wn27mr/a_remastered_version_of_my_older_sunny_emotion/
+//https://www.reddit.com/r/OMORI/comments/13m1rz0/omori_emotions_but_its_me/
 
 //DO NOT USE IN OTHER SCRIPTS
 const _point = [
@@ -14,13 +17,14 @@ const _point = [
     "Good",
     "Evil",
     //Point
+    "Armor",
     "Life",
     "Health",
+    "Stamina",
     "Magic",
-    "Shield",
-    "Armor",
-    "Special",
     "Action",
+    "Special",
+    "Shield",
     "Fever",
     "Command",
     "Tactical",
@@ -41,11 +45,45 @@ const _boolean = [
     "CanBePoisoned",
     //Emotional Aliment
     "IsNeutral",
+    "IsInjured",
+    "IsSleepy",
+    "IsDefeated",
+    "IsAfraid",
+    "IsStressedOut",
+    "IsTerrified",
+    "IsTraumatized",
     "IsHappy",
-    "IsManiac",
+    "IsJoy",
+    "IsEcstatic",
+    "IsManic",
+    "IsEuphoric",
+    "IsHeavenly",
     "IsSad",
+    "IsDepressed",
+    "IsMiserable",
+    "IsHopeless",
+    "IsAngry",
+    "IsEnraged",
+    "IsFurious",
+    "IsLivid",
+    "IsCrazy",
+    "IsDelirious",
+    "IsGenocidal",
+    "IsSpooked",
+    "IsTraumatized",
+    "IsDistress",
+    "IsDehyrated",
+    "IsSick",
+    "IsFrustated",
+    "IsEnvious",
+    "IsNostalgic",
+    "IsAcceptance",
+    "IsGrief",
     //Status Aliment
+    "IsDazed",
     "IsEnergize",
+    "IsSlow",
+    "IsStop",
     "IsDisrupted",
     "IsBind",
     "IsStun",
@@ -64,7 +102,6 @@ const _boolean = [
     "IsDrowsy",
     "IsFainted",
     "IsCursed",
-    "IsSpooked",
     //NSFW
     "IsPetrified",
     "IsCharmed",
@@ -79,10 +116,13 @@ function generateText() {
     let result = "class CharacterStatuses{";
     //add more text here
 
-    //set function
-    //get function
+    //set value function
+    //get value function
 
-    //onTitleChanged
+    //set status function
+    //get status function
+
+    //onVariableNameChanged
 }
 
 // ! -- BELOW IS GENERATED, DO NOT EDIT, JUST USE --
