@@ -1,13 +1,9 @@
-class ProgramValue{
+class ProgramValueMinimal {
     constructor(
         value = 0,
         valueDefault = 0,
-        valueMin = 0, 
-        valueMax = 0, 
-        restraintMin = 0, 
-        restraintMax = 0, 
-        limitMin = 0, 
-        limitMax = 0,
+        valueMin = 0,
+        valueMax = 0,
         systemMin = Number.MIN_VALUE,
         systemMax = Number.MAX_VALUE)
     {
@@ -15,10 +11,6 @@ class ProgramValue{
         this.valueDefault = valueDefault;
         this.valueMin = valueMin;
         this.valueMax = valueMax;
-        this.restraintMin = restraintMin;
-        this.restraintMax = restraintMax;
-        this.limitMin = limitMin;
-        this.limitMax = limitMax;
         this.systemMin = systemMin;
         this.systemMax = systemMax;
     }
