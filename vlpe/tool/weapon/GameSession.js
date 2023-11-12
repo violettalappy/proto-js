@@ -1,4 +1,4 @@
-const TextGameSession = [
+const _numeric = [
     "EnemyDefeated", 
     "Money",
     "Gem",
@@ -7,8 +7,23 @@ const TextGameSession = [
     "Bronze",
     "Coin",
     "Penny",
-    "Material"
+    "Material",
+    "Complete",
+    
+    "Playtime",
+    
+    // ? Car Game
+    "Time",
+    "Speed",
+    "Gear",
+    "Heat",
+    "Boost",
+    "Nitro",
 ];
+
+const _percentages = {
+    Complete: [0,0,0,100],
+}
 
 class GameSession {    
     constructor(){

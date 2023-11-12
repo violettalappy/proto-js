@@ -31,6 +31,10 @@ const _texts = [
     "Star",
     "Power",
     "Euphoria",
+    // ? Car Game
+    "TimeSLow",
+    "Nitro",
+    "Boost"
 ];
 
 function exportJS() {
@@ -44,6 +48,9 @@ function exportJS() {
     //add more text here
 
     //set value numeric function
+    result += "\n";
+    result += "set" + "Name" + "Numeric() {";
+
     //get value numeric function
 
     //set value percentage function
