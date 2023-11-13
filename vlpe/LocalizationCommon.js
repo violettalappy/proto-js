@@ -83,6 +83,7 @@ const localization = {
     History: ["",""],
     Unlockables: ["",""],
     Progress: ["",""],
+    Equipment: ["Equipment",""],
 
     BackToMainMenu: ["Back to Main Menu", "Tro ve man hinh chinh"],
     BackToDesktop: ["Back to Desktop", "Tro ve desktop"],

@@ -17,6 +17,7 @@ const _texts = [
     "Health",
     "Stamina",
     "Magic",
+    "Mana",
     "Action",
     "Special",
     "Shield",

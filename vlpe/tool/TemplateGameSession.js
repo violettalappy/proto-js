@@ -1,6 +1,8 @@
 const _numerics = [
     "EnemyKilled",
     "EnemyDefeated",
+
+    //Currency
     "Money",
     "Gem",
     "Crystal",
@@ -8,7 +10,9 @@ const _numerics = [
     "Bronze",
     "Coin",
     "Penny",
+    "Orb",
     "Material",
+    "Wood",
     
     "Playtime",
     
@@ -25,6 +29,19 @@ const _numerics = [
     "Repair",
     "Turbo",
 ];
+
+const _something = {
+    Currency: [0,0,0,0,0],
+    Money: [0,0,0,0,0],
+    Coin: [0,0,0,0,0],
+    Crystal: [0,0,0,0,0],
+
+    // ? Material
+    Wood: [0,0,0,0,0],
+    Metal: [0,0,0,0,0],
+    Orb: [0,0,0,0,0],
+    Plant: [0,0,0,0,0],
+}
 
 const _percentages = {
     Completion: [0,0,0,100],
