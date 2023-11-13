@@ -38,6 +38,15 @@ const _texts = [
     "Boost"
 ];
 
+const _stats = {
+    Threat: [0,0,0,0,0],
+    Excitement: [0,0,0,0,0],
+    Loyalty: [0,0,0,0,0],
+    Reason: [0,0,0,0,0],
+    Time: [0,0,0,0,0],
+    TimeStop: [0,0,0,0,0],
+}
+
 function exportJS() {
     // ! header file
     let k_fileName = "CharacterStatuses.js";

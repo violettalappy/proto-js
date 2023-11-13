@@ -123,6 +123,7 @@ const localization = {
     Notification_SaveSuccess: ["Save successful", "Luu thanh cong"],
     Notification_SaveFail: ["Save fail", "Luu loi !!"],
     Notification_TimeExtended: [""],
+    Notification_ItemGet: [""],
 
     Subtext_SelectYourLanguage: ["Please select your language", "Vui long chon ngon ngu"],
 

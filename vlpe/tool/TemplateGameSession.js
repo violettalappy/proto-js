@@ -31,6 +31,8 @@ const _numerics = [
 ];
 
 const _something = {
+    Date: [0,0,0,0,0],
+    Playtime: [0,0,0,0,0],
     Currency: [0,0,0,0,0],
     Money: [0,0,0,0,0],
     Coin: [0,0,0,0,0],
@@ -38,7 +40,9 @@ const _something = {
 
     // ? Material
     Wood: [0,0,0,0,0],
+    Ore: [0,0,0,0,0],
     Metal: [0,0,0,0,0],
+    Core: [0,0,0,0,0],
     Orb: [0,0,0,0,0],
     Plant: [0,0,0,0,0],
 }
