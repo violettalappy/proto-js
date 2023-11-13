@@ -1,5 +1,6 @@
-const _numeric = [
-    "EnemyDefeated", 
+const _numerics = [
+    "EnemyKilled",
+    "EnemyDefeated",
     "Money",
     "Gem",
     "Crystal",
@@ -8,28 +9,23 @@ const _numeric = [
     "Coin",
     "Penny",
     "Material",
-    "Complete",
     
     "Playtime",
     
     // ? Car Game
+    "Escape",
     "Time",
     "Speed",
     "Gear",
     "Heat",
     "Boost",
     "Nitro",
+    "N2O",
+    "Fuel",
+    "Repair",
+    "Turbo",
 ];
 
 const _percentages = {
     Completion: [0,0,0,100],
-}
-
-class GameSession {    
-    constructor(){
-        this.enemyDefeated = 0;
-    }
-    setEnemyDefeated(arg_value){
-        this.enemyDefeated = arg_value;
-    }
 }

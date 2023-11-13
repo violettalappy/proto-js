@@ -19,7 +19,6 @@ const _boolean = [
     "CanBePoisoned",
     //Emotional Aliment
     "IsNeutral",
-    "IsInjured",
     "IsSleepy",
     "IsDefeated",
     "IsAfraid",
@@ -55,6 +54,8 @@ const _boolean = [
     "IsGrief",
     "IsFear",
     //Status Aliment
+    "IsInjured",
+    "IsPained",
     "IsAddicted",
     "IsLacerate",
     "IsWeaken",

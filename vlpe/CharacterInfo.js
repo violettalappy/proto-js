@@ -1,7 +1,16 @@
 // Info to glance for, that does not change much
 
 const TemplateCharacterProfile = [
-    "Name",
+    "Icon",
+    "Picture",
+    "Notes",
+
+    "FullName",
+    "MiddleName",
+    "SurnameName",
+    "Nickname",
+    "Quote",
+
     "BackgroundContext",
     "Sex",
     //Other stuffs

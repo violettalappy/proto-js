@@ -36,50 +36,6 @@ const KCharacterClass = {
     NextRequiredExperience: "",
 }
 
-//DnD, Baldur Gates and common rpg games
-const KCharacterStat = {
-    HealthBonus: "",
-    ManaBonus: "",
-    WindAttackBonus: "",
-    ArmorBonus: "",
-
-    Attack: "",
-    PhysicalAttack: "",
-    MagicAttack: "",
-    SlashAttack: "",
-    BluntAttack: "",
- 	PierceAttack: "",
-     
-    Defense: "",
-    MagicDefense: "",
-    PhysicalDefense: "",    
-    
-    Speed: "",
-    Initiative: "",
-    CriticalChance: "",
-
-    BleedEnhance: "",
-    PoisonEnhance: "",
-
-    StunResistance: "",
-    BleedResistance: "",
-    PoisonResistance: "",
-
-    Proficiency: "",
-
-    Strenght: "",
-    Dexterity: "",
-    Constitution: "",
-    Intelligence: "",
-    Wisdom: "",
-    Charisma: "",
-    Perception: "",
-    Ability: "",
-
-    GuardBoost,
-    GuardNegate
-}
-
 const KGameSystem = {
     IsInitFirstTime,
 }
