@@ -52,6 +52,7 @@ const _numerics = {
     // ? Buff - Enhance / Boost / Bonus
     LightBonus: [],
     HolyBonus: [],
+    DarknessBonus: [],
 
     BleedEnhance: [],
     PoisonEnhance: [],
@@ -59,6 +60,8 @@ const _numerics = {
     GuardBoost: [],
 
     // ? Resistance
+    AttackResistance: [],
+    MagicAttackResistance: [],
     StunResistance: [],
     BleedResistance: [],
     PoisonResistance: [],

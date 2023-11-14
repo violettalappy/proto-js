@@ -76,9 +76,16 @@ const localization = {
     Codex_History: ["History"],
     Codex_Characters: ["Characters"],
 
+    Tutorial: ["Tutorial"],
+    Tutorial_Basic: ["Basic"],
+
     DLC: ["DLC", "DLC"],
     DLC_Installed: ["Installed", "DLC"],
     DLC_NotInstalled: ["Not Install Yet", "DLC"],
+
+    Mods: ["Mods"],
+    Mods_Installed: ["Installed"],
+    Mods_NotInstalled: ["NotInstalled"],
 
     History: ["",""],
     Unlockables: ["",""],
@@ -133,9 +140,12 @@ const localization = {
     Load: ["Load"],
     QuickSave: ["Quick Save"],
     QuickLoad: ["Quick Load"],
+    New: ["Save"],
     Delete: ["Delete", "Xoa"],
-    Migrate: ["Migrate"],
+    Import: ["Import"],
     Transfer: ["Transfer"],
+    Migrate: ["Migrate"],
+    Switch: ["Switch"],
 };
 
 //Load csv file
