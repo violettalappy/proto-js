@@ -89,6 +89,7 @@ const localization = {
 
     History: ["",""],
     Unlockables: ["",""],
+    Achievements: [],
     Progress: ["",""],
     Equipment: ["Equipment",""],
 
@@ -127,11 +128,16 @@ const localization = {
     Notification_Warning: ["", ""],
     Notification_Caution: ["", ""],
     Notification_Fatal: ["", ""],
-    Notification_SaveSuccess: ["Save successful", "Luu thanh cong"],
-    Notification_SaveFail: ["Save fail", "Luu loi !!"],
-    Notification_TimeExtended: [""],
-    Notification_ItemGet: [""],
+    Notification_ProfileSaveSuccess: ["Profile Save successful !!", "Ho so nguoi dung luu thanh cong !!"],
+    Notification_ProfileSaveFail: ["Profile Save fail !!", "Ho so nguoi dung luu loi !!"],
+    Notification_GameSaveSuccess: ["Game Save successful", "Luu thanh cong"],
+    Notification_GameSaveFail: ["Game Save fail", "Luu loi !!"],
 
+    Notification_GameplayTimeExtended: [""],
+    Notification_GameplayItemGet: [""],
+    Notification_GameplayItemLost: [""],
+
+    Subtext_Options_Language: ["Please select your language", "Vui long chon ngon ngu"],
     Subtext_SelectYourLanguage: ["Please select your language", "Vui long chon ngon ngu"],
 
     //Data
