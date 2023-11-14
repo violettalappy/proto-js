@@ -24,7 +24,11 @@ const _stats = {
     HipStandAccuracy: [0,0,0,0,0],
     HipCrouchAccuracy: [0,0,0,0,0],
     HipProneAccuracy: [0,0,0,0,0],
-    AdsZoomAccuracy: [0,0,0,0,0],
+    AimDownSightAccuracy: [0,0,0,0,0],
+    AimDownSightUpSway: [0,0,0,0,0],
+    AimDownSightDownSway: [0,0,0,0,0],
+    AimDownSightLeftSway: [0,0,0,0,0],
+    AimDownSightRightSway: [0,0,0,0,0],
 
     Stability: [0,0,0,0,0],
     

@@ -16,15 +16,10 @@ const _numerics = {
     MagicDefense: [],
     PhysicalDefense: [],    
     
+    // ? Others
     Speed: [],
     Initiative: [],
     CriticalChance: [],
-
-    BleedEnhance: [],
-    PoisonEnhance: [],
-
-    GuardBoost: [],
-    GuardNegate: [],
 
     // ? Common Stats
     Health: [],
@@ -53,15 +48,23 @@ const _numerics = {
     LightBonus: [],
     HolyBonus: [],
 
+    BleedEnhance: [],
+    PoisonEnhance: [],
+
+    GuardBoost: [],
+
     // ? Resistance
     StunResistance: [],
     BleedResistance: [],
     PoisonResistance: [],
     PainResistance: [],
 
-    // ? Negate
+    // ? Negate / Immune
+    PoisonImmune: [],
 
-    // ? Others
+    GuardNegate: [],
+
+    // ? Hentai Game
     Hypnosis: [0,0,0,0,0],
     Esctasy: [0,0,0,0,0],
     Chasity: [0,0,0,0,0],

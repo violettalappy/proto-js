@@ -33,8 +33,11 @@ const _numerics = [
 const _something = {
     Date: [0,0,0,0,0],
     Playtime: [0,0,0,0,0],
+
+    // ? Currency
     Currency: [0,0,0,0,0],
     Money: [0,0,0,0,0],
+    BattlePoints: [0,0,0,0,0],
     Coin: [0,0,0,0,0],
     Crystal: [0,0,0,0,0],
 
