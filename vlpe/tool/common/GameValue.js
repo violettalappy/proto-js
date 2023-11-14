@@ -1,6 +1,7 @@
-//Percentage bonus increment
+//Percentage bonus increment like Unity Script
 //Stat increment
-class ProgramValue {
+
+class GameValue {
     constructor(
         value = 0,
         valueDefault = 0,
@@ -10,6 +11,7 @@ class ProgramValue {
         restraintMax = 0, 
         limitMin = 0, 
         limitMax = 0,
+        bonusList = [],
         systemMin = Number.MIN_VALUE,
         systemMax = Number.MAX_VALUE)
     {
@@ -21,6 +23,7 @@ class ProgramValue {
         this.restraintMax = restraintMax;
         this.limitMin = limitMin;
         this.limitMax = limitMax;
+        this.bonusList = bonusList;
         this.systemMin = systemMin;
         this.systemMax = systemMax;
     }
@@ -57,4 +60,4 @@ class ProgramValue {
     }
 };
 
-const sz_increment = 0;
+const sz_increment = [0,0,0];

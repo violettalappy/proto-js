@@ -1,41 +1,41 @@
 //DnD, Baldur Gates and common rpg games
+// Use GameValue
+// 0 -> 255 (Byte Max)
 const _numerics = {
-    HealthBonus: [0],
-    ManaBonus: [0],
-    ArmorBonus: [0],
+    HealthBonus: [],
+    ManaBonus: [],
+    ArmorBonus: [],
     WindBonus: [],
 
     Attack: [],
     PhysicalAttack: [],
-    MagicAttack: [],
     SlashAttack: [],
     BluntAttack: [],
     PierceAttack: [],
 
+    MagicAttack: [],
+
     Defense: [],
-    MagicDefense: [],
-    PhysicalDefense: [],    
-    
-    // ? Others
-    Speed: [],
-    Initiative: [],
-    CriticalChance: [],
+    MagicAttackDefense: [],
+    PhysicalAttackDefense: [],
 
     // ? Common Stats
     Health: [],
     Mana: [],
+    Magic: [],
     Stamina: [],
     Energy: [],
     
     Action: [],
     Battle: [],
-
+    
     Power: [],
     Agility: [],
     Strenght: [],
     Dexterity: [],
     Constitution: [],
     Intelligence: [],
+    Intellecture: [],
     Wisdom: [],
     Charisma: [],
     Perception: [],
@@ -43,6 +43,11 @@ const _numerics = {
     Confidence: [],
     Proficiency: [],
     Reason: [],
+    Speed: [],
+
+    // ? Special Stats
+    Initiative: [],
+    CriticalChance: [],
 
     // ? Buff - Enhance / Boost / Bonus
     LightBonus: [],
@@ -60,17 +65,37 @@ const _numerics = {
     PainResistance: [],
 
     // ? Negate / Immune
-    PoisonImmune: [],
-
     GuardNegate: [],
 
+    WeakenImmune: [],
+    SlowImmune: [],
+    StunImmune: [],
+    PoisonImmune: [],
+
     // ? Hentai Game
-    Hypnosis: [0,0,0,0,0],
-    Esctasy: [0,0,0,0,0],
-    Chasity: [0,0,0,0,0],
-    Lust: [0,0,0,0,0],
-    Love: [0,0,0,0,0],
-    Crush: [0,0,0,0,0],
-    Luck: [0,0,0,0,0],
-    Tenderness: [0,0,0,0,0],
-}
+    Hypnosis: [],
+    Esctasy: [],
+    Chasity: [],
+    Lust: [],
+    Love: [],
+    Crush: [],
+    Luck: [],
+    Tenderness: [],
+};
+
+// 0 -> 100 -> 200
+const _percentages = {
+    Health: [],
+    Mana: [],
+
+    Luck: [],
+
+    // ? Hentai Game
+    Hypnosis: [],
+    Esctasy: [],
+    Chasity: [],
+    Lust: [],
+    Love: [],
+    Crush: [],
+    Tenderness: [],
+};
