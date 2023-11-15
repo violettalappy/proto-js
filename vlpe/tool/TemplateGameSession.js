@@ -15,6 +15,9 @@ const _numerics = [
     "Wood",
     
     "Playtime",
+
+    // ? CIV Game
+
     
     // ? Car Game
     "Escape",
@@ -33,6 +36,9 @@ const _numerics = [
 const _something = {
     Date: [0,0,0,0,0],
     Playtime: [0,0,0,0,0],
+
+    // ? CIV Game
+    Diplomacy: [0,0,0,0,0],
 
     // ? Currency
     Currency: [0,0,0,0,0],
