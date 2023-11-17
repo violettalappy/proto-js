@@ -48,8 +48,11 @@ const _something = {
     Crystal: [0,0,0,0,0],
 
     // ? Material
+    Income: [0,0,0,0,0],
+    Food: [0,0,0,0,0],
     Wood: [0,0,0,0,0],
     Ore: [0,0,0,0,0],
+    Stone: [0,0,0,0,0],
     Metal: [0,0,0,0,0],
     Core: [0,0,0,0,0],
     Orb: [0,0,0,0,0],
