@@ -1,12 +1,20 @@
-//Percentage bonus increment like Unity Script
-//Stat increment
+// * Enable console debug log of clamp
+K_CAN_DEBUG_LOG_CLAMP_FUNCTION = false;
 
-function clamp(val, min, max) {
+// * Clamp value to provided min and max value
+function _clamp(val, min, max) {
+    if(K_CAN_DEBUG_LOG_CLAMP_FUNCTION) {
+        if(val > max) {
+            console.log("Value has clamp to provided max value " + max.toString);
+        }
+        else if(val < min) {
+            console.log("Value has clamp to provided min value " + max.toString);
+        }
+        else {
+            console.log("Value has clamp to provided min value " + max.toString);
+        }
+    }
     return val > max ? max : val < min ? min : val;
-}
-
-function isClamp(val, min, max) {
-    return val > max ? true : val < min ? true : false;
 }
 
 class GameValue {
@@ -19,7 +27,9 @@ class GameValue {
         restraintMax = 0, 
         limitMin = 0, 
         limitMax = 0,
-        bonusList = [])
+        bonusList = [],
+        canRestraint = true,
+        canLimit = true)
     {
         this.value = value;
         this.valueDefault = valueDefault;
@@ -37,8 +47,8 @@ class GameValue {
 
         this.bonusList = bonusList;
 
-        this.canRestraint = true;
-        this.canLimit = true;
+        this.canRestraint = canRestraint;
+        this.canLimit = canLimit;
     }
 
     getValue(){
@@ -55,16 +65,20 @@ class GameValue {
 
     setValue(arg_value){
         //if <> system
-        clamp(arg_value, this.systemMin, this.systemMax);
+        _clamp(arg_value, this.systemMin, this.systemMax);
 
         //if <> limit
-        clamp(arg_value, this.limitMin, this.limitMax);
+        if(this.canLimit){
+            _clamp(arg_value, this.limitMin, this.limitMax);
+        }
 
         //if <> restraint
-        clamp(arg_value, this.restraintMin, this.restraintMax);
+        if(this.canRestraint){
+            _clamp(arg_value, this.restraintMin, this.restraintMax);
+        }
 
         //if <> min, max
-        clamp(arg_value, this.restraintMin, this.restraintMax);
+        _clamp(arg_value, this.restraintMin, this.restraintMax);
 
         //setValue
         this.arg_value = arg_value;
@@ -86,5 +100,3 @@ class GameValue {
 class GamePercentage {
     constructor(){}
 }
-
-const sz_increment = [0,0,0];
