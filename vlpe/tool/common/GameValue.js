@@ -8,10 +8,10 @@ function _clamp(val, min, max) {
             console.log("Value has clamp to provided max value " + max.toString);
         }
         else if(val < min) {
-            console.log("Value has clamp to provided min value " + max.toString);
+            console.log("Value has clamp to provided min value " + min.toString);
         }
         else {
-            console.log("Value has clamp to provided min value " + max.toString);
+            console.log("Value does not need to be clamped " + val);
         }
     }
     return val > max ? max : val < min ? min : val;
