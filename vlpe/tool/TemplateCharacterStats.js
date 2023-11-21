@@ -1,3 +1,5 @@
+import { GameValue } from '/common/GameValue.js'
+
 // * This for numbers only
 class Template {
     constructor(
@@ -21,6 +23,45 @@ const _sizes = [
     new Template("Health", GameValue(0,0,0,0,0)),
     new Template("Mana", GameValue(0,0,0,0,0)),
     new Template("Stamina", GameValue(0,0,0,0,0)),
+
+    // ? Common Tabletop RPG
+    new Template("Proficiency", GameValue(0,0,0,0,0)),
+    new Template("Initiative", GameValue(0,0,0,0,0)),
+    new Template("Perception", GameValue(0,0,0,0,0)),
+    new Template("Speed", GameValue(0,0,0,0,0)),
+
+    new Template("Power", GameValue(0,0,0,0,0)),
+    new Template("Strenght", GameValue(0,0,0,0,0)),
+    new Template("Dexterity", GameValue(0,0,0,0,0)),
+    new Template("Constitution", GameValue(0,0,0,0,0)),
+    new Template("Intelligence", GameValue(0,0,0,0,0)),
+    new Template("Intellectual", GameValue(0,0,0,0,0)),
+    new Template("Wisdom", GameValue(0,0,0,0,0)),
+    new Template("Reasoning", GameValue(0,0,0,0,0)),
+    new Template("Charisma", GameValue(0,0,0,0,0)),
+    new Template("Confidence", GameValue(0,0,0,0,0)),
+    new Template("Agility", GameValue(0,0,0,0,0)),
+    new Template("Luck", GameValue(0,0,0,0,0)),
+    
+    new Template("Technique", GameValue(0,0,0,0,0)),
+
+    // ? Dating Sim Game
+    new Template("Love", GameValue(0,0,0,0,0)),
+
+    // ? Hentai Game
+    new Template("Shame", GameValue(0,0,0,0,0)),
+    new Template("Pride", GameValue(0,0,0,0,0)),
+    new Template("Obedience", GameValue(0,0,0,0,0)),
+    new Template("Hypnosis", GameValue(0,0,0,0,0)),
+    new Template("Esctasy", GameValue(0,0,0,0,0)),
+    new Template("Pleasure", GameValue(0,0,0,0,0)),
+    new Template("Chasity", GameValue(0,0,0,0,0)),
+    new Template("Lust", GameValue(0,0,0,0,0)),
+    new Template("Lewdness", GameValue(0,0,0,0,0)),
+    new Template("Crush", GameValue(0,0,0,0,0)),
+    new Template("Crush", GameValue(0,0,0,0,0)),
+    new Template("Tenderness", GameValue(0,0,0,0,0)),
+    new Template("Affection", GameValue(0,0,0,0,0)),
 ];
 
 
