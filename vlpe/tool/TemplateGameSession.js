@@ -17,6 +17,9 @@ const _numerics = [
     "Playtime",
 
     // ? CIV Game
+    "Troop",
+    "People",
+    "Population",
 
     
     // ? Car Game
@@ -43,6 +46,8 @@ const _something = {
     // ? Currency
     Currency: [0,0,0,0,0],
     Money: [0,0,0,0,0],
+    Gils: [0,0,0,0,0],
+    Yen: [0,0,0,0,0],
     BattlePoints: [0,0,0,0,0],
     Coin: [0,0,0,0,0],
     Crystal: [0,0,0,0,0],
