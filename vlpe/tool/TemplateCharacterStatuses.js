@@ -25,6 +25,12 @@ const _sizes = [
     // ? Mentality
     new Template("Mentality", GameValue(0,0,0,0,0)),
     new Template("Morality", GameValue(0,0,0,0,0)),
+    new Template("Merit", GameValue(0,0,0,0,0)),
+    new Template("Reputation", GameValue(0,0,0,0,0)),
+
+    new Template("Threat", GameValue(0,0,0,0,0)),
+    new Template("Good", GameValue(0,0,0,0,0)),
+    new Template("Evil", GameValue(0,0,0,0,0)),
     
     // ? Common
     new Template("Heart", GameValue(0,0,0,0,0)),
