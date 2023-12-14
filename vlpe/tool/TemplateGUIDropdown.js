@@ -17,14 +17,16 @@ class Template {
 
 const _sizes = [
     new Template(0, "Difficulty", ["Normal", "Hard", "Lunatic"]),
-    new Template(0, "Difficulty2", ["Easy", "Normal", "Hard"]),
-    new Template(0, "Difficulty3", ["Very Easy", "Easy", "Normal", "Hard", "Very Hard"]),
-    new Template(0, "Difficulty4", ["Novice", "Easy", "Normal", "Hard", "Chaos", "Expert"]),
+    new Template(0, "Difficulty2", ["Normal", "Hard", "Lunatic", "Custom"]),
+    new Template(0, "Difficulty3", ["Easy", "Normal", "Hard"]),
+    new Template(0, "Difficulty4", ["Very Easy", "Easy", "Normal", "Hard", "Very Hard"]),
+    new Template(0, "Difficulty5", ["Novice", "Easy", "Normal", "Hard", "Chaos", "Expert"]),
+    
+    // Game Gerne
     new Template(0, "DifficultyTouhou", ["Baby"]),
     new Template(0, "DifficultyWarriorOrochi", ["Novice", "Easy", "Normal", "Hard", "Chaos", "Expert"]),
     new Template(0, "DifficultyDoom", ["Don't hurt me mommy"]),
     new Template(0, "DifficultyQuake", ["Something"]),
-    
     new Template(0, "DifficultyWolfenstein", ["Can I play, Daddy?", "Don't hurt me", "Bring 'em on!", "Do or die!", "Call me Terror-Billy!", "I am death incarnate!", "Uber", "Mein leben"]),
     
     new Template(0, "OptionsDisplayResolution", ["640x480", "1920x1080"]),
@@ -32,12 +34,11 @@ const _sizes = [
 ];
 
 // You can add all general texts via foreach loops
-
 function _getText(arg_property){
     return "result";
 }
 
-//Export monolith script as GUIDropdown.js
+// Export monolith script as GUIDropdown.js
 function exportJS_Monolith(){
 
 };
