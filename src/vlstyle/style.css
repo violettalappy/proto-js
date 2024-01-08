@@ -1,0 +1,129 @@
+/* 
+COMMON
+Insert all your custom style here
+Add <a> <h1> any other stuff that you want
+*/
+
+a {
+}
+h1 {
+}
+button {
+}
+
+/* 
+VIOLETTALAPPY
+Inspire mostly by TailwindCSS
+*/
+
+/*
+BACKGROUND
+*/
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gray-100 {
+  background-color: #161616;
+}
+
+.bg-gray-90 {
+  background-color: #262626;
+}
+
+.bg-gray-80 {
+  background-color: #393939;
+}
+
+/*
+FONT AND TEXT
+*/
+
+.font-default {
+  font-family: "Cosurier New", Courier, monospace;
+}
+
+.font-ibmplex {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-gray-100 {
+  color: #161616;
+}
+
+.text-gray-90 {
+  color: #262626;
+}
+
+.text-gray-80 {
+  color: #393939;
+}
+
+/* 
+Text size based on standard specification
+From IBM Carbon Style, Bootstrap and others
+- text-size xl to 12xl
+Based heavily on TailwindCSS and IBM Carbon Design System
+*/
+
+.text-xs {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text-s {
+  font-size: 14px;
+}
+
+.text-m {
+  font-size: 16px;
+}
+
+.text-l {
+  font-size: 18px;
+}
+
+.text-xl {
+  font-size: 20px;
+}
+
+.text-2xl {
+  font-size: 24px;
+}
+
+.text-3xl {
+  font-size: 30px;
+}
+
+.text-4xl {
+  font-size: 256px;
+}
+
+.text-5xl {
+  font-size: 256px;
+}
+
+.text-6xl {
+  font-size: 256px;
+}
+
+.text-7xl {
+  font-size: 256px;
+}
+
+.text-8xl {
+  font-size: 256px;
+}
